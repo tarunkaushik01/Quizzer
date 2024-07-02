@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.content{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;justify-content: center;
+    font-size: 45px;
+}
+.button{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom,black,white);
+}
+button{
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+#Take{
+    margin-left: 50px;
+}
